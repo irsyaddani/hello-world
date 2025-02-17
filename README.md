@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+|       | Pemrograman Berbasis Framework 2025 |
+| ----- | ----------------------------------- |
+| NIM   | 2241720233                          |
+| Nama  | Irsyad Danisaputra                  |
+| Kelas | TI - 3C                             |
 
-## Getting Started
+# Praktikum 1: Menyiapkan Lingkungan Pengembangan
 
-First, run the development server:
+## Pertanyaan Praktikum 1
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Jelaskan kegunaan masing-masing dari Git, VS Code dan NodeJS yang telah Anda install pada sesi praktikum ini!
+   <br> **Jawab:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Git adalah sistem kontrol versi (_version control system_) yang memungkinkan kita menyimpan, melacak, dan mengelola perubahan dalam kode.
+- VS Code (Visual Studio Code) adalah editor kode gratis yang disediakan oleh Microsoft yang mendukung berbagai bahasa pemrograman.
+- Node.js adalah platform runtime JavaScript yang memungkinkan pemrogram menjalankan JavaScript di luar browser. Node.js dapat digunakan untuk mengembangkan aplikasi web, server, alat baris perintah, dan skrip.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Buktikan dengan screenshoot yang menunjukkan bahwa masing-masing tools tersebut telah berhasil terinstall di perangkat Anda!
+   <br> **Jawab:**
+   ![alt text](image-8.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Praktikum 2: Membuat Proyek Pertama React Menggunakan Next.js
 
-## Learn More
+## Pertanyaan Praktikum 2
 
-To learn more about Next.js, take a look at the following resources:
+1. Pada Langkah ke-2, setelah membuat proyek baru menggunakan Next.js, terdapat beberapa istilah yang muncul. Jelaskan istilah tersebut **TypeScript, ESLint, Tailwind CSS, App Router, Import alias, App router, dan Turbopack!**
+   <br> **Jawab:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- TypeScript adalah versi yang lebih canggih dari JavaScript karena memiliki sistem tipe statis. Dengan TypeScript, kesalahan dalam kode dapat terdeteksi sebelum dijalankan, sehingga lebih aman dan mudah dikelola.
+- ESLint adalah alat yang membantu menjaga kualitas kode JavaScript dan TypeScript dengan memberikan peringatan jika terdapat kesalahan atau inkonsistensi dalam penulisan kode.
+- Tailwind CSS adalah framework CSS berbasis utility class yang memungkinkan pengembang untuk langsung menerapkan gaya pada elemen HTML tanpa perlu menulis file CSS terpisah.
+- App Router adalah sistem routing baru di Next.js yang menggunakan direktori app/ sebagai dasar navigasi aplikasi. Metode ini lebih fleksibel dibandingkan sistem sebelumnya (pages/) karena mendukung fitur seperti server components, layout yang lebih efisien, dan loading UI bawaan.
+- Import alias memungkinkan kita untuk menggunakan nama pendek yang lebih mudah diingat.
+- Turbopack adalah bundler inkremental yang terintegrasi dengan Next.js. Turbopack dapat digunakan untuk mempercepat pengembangan lokal aplikasi Next.js, terutama dalam proses build dan hot reload.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Apa saja kegunaan folder dan file yang ada pada struktur proyek React yang tampil pada gambar pada tahap percobaan ke-3!
+   <br> **Jawab:**
 
-## Deploy on Vercel
+- **node_modules/**
+  <br>Berisi semua dependensi (library dan package) yang diinstal melalui npm atau yarn. Folder ini dibuat secara otomatis setelah menjalankan npm install atau yarn install.
+- **public/**
+  <br>Berisi aset statis yang tidak diproses oleh Webpack, seperti gambar, ikon, atau file HTML utama (index.html).
+- **src/**
+  <br>Berisi semua kode sumber dari aplikasi React.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
+   <br> **Jawab:**
+   ![alt text](image.png)
+   ![alt text](image-1.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Praktikum 3: Menambahkan Komponen React (Button)
+
+## Pertanyaan Praktikum 3
+
+1. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
+   <br> **Jawab:**
+   <br> membuat fungsi MyButton()
+   ![alt text](image-4.png)
+   <br> memanggil fungsi MyButton()
+   ![alt text](image-3.png)
+   <br> terdapat button Buka Halaman bewarna biru
+   ![alt text](image-2.png)
+
+# Praktikum 4: Menulis Markup dengan JSX
+
+## Pertanyaan Praktikum 4
+
+1. Untuk apakah kegunaan sintaks user.imageUrl?
+   <br> **Jawab:** Sintaks user.imageUrl digunakan untuk mengakses nilai dari properti imageUrl yang terdapat dalam objek user.
+
+2. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
+   <br> **Jawab:**
+   <br> Membuat fungsi Profile()
+   ![alt text](image-5.png)
+   <br> Memanggil fungsi Profile()
+   ![alt text](image-6.png)
+   <br> Terdapat profil dan keterangan developed by
+   ![alt text](image-7.png)
